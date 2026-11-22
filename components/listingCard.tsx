@@ -14,7 +14,7 @@ export default function ListingCard({
   location,
 }: ListingCardProps) {
   return (
-    <div className="flex w-70 flex-col rounded-3xl bg-gray-300 p-7 relative left-90 top-50" >
+    <div className="flex w-70 flex-col rounded-3xl bg-gray-300 p-7" >
       <div className="relative h-60 w-full">
         <Image
           src={imageSrc}
